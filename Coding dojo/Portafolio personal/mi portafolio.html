@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            color: #333;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background-color: #2a3d66;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        img {
+            max-width: 25%;
+            height: auto;
+            margin: 50px 50px;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 2);
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .container {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 60px;
+            text-align: center;
+        }
+
+        table {
+            margin: 20px 0;
+            border-collapse: collapse;
+            width: 80%;
+        }
+
+        th,
+        td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #2a3d66;
+            color: white;
+        }
+
+        .container a {
+            text-decoration: none;
+            color: #2a3d66;
+            font-weight: bold;
+        }
+
+        .container a:hover {
+            color: #1d2a44;
+        }
+
+        h2,
+        h3 {
+            color: #2a3d66;
+        }
+
+        textarea {
+            width: 300px;
+            height: 100px;
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            font-size: 14px;
+        }
+
+        input[type="submit"] {
+            background-color: #2a3d66;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #1d2a44;
+        }
+
+        footer {
+            background-color: #2a3d66;
+            color: white;
+            text-align: center;
+            padding: 30px;
+            width: 100%;
+            ;
+            bottom: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>¡Hola! Soy Samuel</h1>
+    </header>
+    <img src="bruce-wayne-2.webp" alt="bruce-wayne">
+    <div class="container">
+        <ul>
+            <li><a href="https://github.com/samuel-trujillo-234">Mi GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/samuel-trujillo-montero-72047422b">Mi LinkedIn</a></li>
+        </ul>
+
+        <h2>Tecnologías que Conozco</h2>
+
+        <table>
+            <tr>
+                <th>Frontend</th>
+                <th>Backend</th>
+                <th>Base de Datos</th>
+            </tr>
+            <tr>
+                <td>HTML</td>
+                <td>PYTHON</td>
+                <td>MySQL</td>
+            </tr>
+            <tr>
+                <td>CSS</td>
+                <td>PHP</td>
+                <td>NoSQL</td>
+            </tr>
+        </table>
+
+        <h2>Proyectos Destacados</h2>
+        <p><strong>Visualización de datos para Business Intelligence</strong></p>
+        <p>Una forma de usar los grandes datos para tu negocio</p>
+
+        <h3>Contáctame</h3>
+        <div>
+            <label for="Nombre">Nombre: </label>
+            <textarea id="Nombre" name="Nombre"></textarea>
+        </div>
+        <div>
+            <label for="Mensaje">Mensaje: </label>
+            <textarea id="Mensaje" name="Mensaje"></textarea>
+        </div>
+
+        <input type="submit" value="Enviar Mensaje">
+    </div>
+
+    <div>
+        <footer>
+            <p>Términos y condiciones</p>
+            <p>Al entrar a esta página aceptas cookies</p>
+        </footer>
+    </div>
+</body>
+
+</html>

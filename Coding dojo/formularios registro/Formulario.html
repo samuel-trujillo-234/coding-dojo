@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            color: #333;
+            background-color: white;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 60vh;
+            padding: 20px;
+            text-align: center;
+        }
+
+        div {
+            margin: 20px 10px;
+        }
+
+        radio {
+            margin: 20px 10px;
+        }
+
+        label {
+            margin: 20px 10px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>¡Registrate y unete a la comunidad!</h1>
+    <div>
+        <label for="nombre">Nombre: </label>
+        <input type="text" id="nombre" name="nombre" />
+    </div>
+    <div>
+        <label for="apellido">Apellido: </label>
+        <input type="text" id="apellido" name="apellido" />
+    </div>
+    <div>
+        <label for="correo">Coreo Electronico</label>
+        <input type="text" id="correo" name="coreo" />
+    </div>
+    <div>
+        <label for="clave">Contraseña: </label>
+        <input type="password" id="clave" name="clave" />
+    </div>
+    <div>
+        <label for="clave-sure"> Confirmar Contraseña: </label>
+        <input type="password" id="clave-sure" name="clave-sure" />
+    </div>
+    <div>
+        <label for="fecha_nacimiento">Fecha de nacimiento: </label>
+        <input type="date" id="fecha_nacimiento" name="fecha_nacimiento" />
+    </div>
+    <div>
+        <label>Genero:</label>
+        <input type="radio" id="Masculino" name="estilo_fuente" value="bold" />
+        <label for="Masculino">Masculino</label>
+        <input type="radio" id="Femenino" name="estilo_fuente" value="normal" />
+        <label for="Femenino">Femenino</label>
+        <input type="radio" id="Prefiero-no-decir" name="estilo_fuente" value="normal" />
+        <label for="Prefiero-no-decir">Prefiero no decir</label>
+    </div>
+    <div>
+        <input type="checkbox" id="acepto" name="acepto" />
+        <label for="acepto">Suscribete a nuestro boletin de noticias</label>
+    </div>
+    <div>
+        <label for="Una descripcion de mi mismo">Una descripcion de mi mismo: </label>
+        <textarea id="Una descripcion de mi mismo" name="comentario" rows="4" cols="30"></textarea>
+    </div>
+    <div>
+        <label for="Selecciona tus intereses">Selecciona tus intereses: </label>
+        <select id="Selecciona tus intereses" name="bandas">
+            <option value="Musica">Musica</option>
+            <option value="Deportes">Deportes</option>
+            <option value="Viajes">Viajes</option>
+            <option value="Tecnologia">Tecnologia</option>
+        </select>
+    </div>
+    <input type="submit" value="¡Registrate!" />
+</body>
+
+</html>
