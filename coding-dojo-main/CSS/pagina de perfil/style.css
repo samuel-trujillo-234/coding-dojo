@@ -1,0 +1,48 @@
+body {
+    width: 100%;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: black;
+    color: #fff;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 60px;
+}
+
+.nav-links {
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+    font-size: 20px;
+    flex: 1 1 auto;
+}
+
+.nav-links li {
+    margin-right: 50px;
+    color: white;
+
+}
+
+.nav-links li a {
+    text-decoration: none;
+    transition: color 0.3s ease;
+    color: white;
+}
+
+.boton-cerrar-sesion {
+    background-color: cyan;
+    color: white;
+    padding: 10px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
