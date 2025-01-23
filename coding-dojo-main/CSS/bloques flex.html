@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Posición de práctica</title>
+    <style>
+        .container {
+            display: grid;
+            grid-template-areas:
+                "perfil-tarjeta solicitudes"
+                "perfil-tarjeta tus-conexiones"
+                "educacion tus-conexiones";
+            grid-template-columns: 70% 30%;
+            grid-template-rows: auto auto auto;
+            grid-gap: 20px;
+        }
+
+        .top-nav {
+            height: 150px;
+            background-color: #ffcc00;
+            margin-bottom: 10px;
+            flex: 0 0 100%;
+        }
+
+        .side-nav {
+            height: 380px;
+            width: 210px;
+            background-color: #66ccff;
+            margin: 10px;
+        }
+
+        .main {
+            height: 400px;
+            width: 700px;
+            background-color: deeppink;
+            display: flex;
+            flex-flow: row wrap;
+        }
+
+        .sub-content {
+            height: 200px;
+            width: 210px;
+            background-color: mediumblue;
+            margin: 10px;
+        }
+
+        #advertisement {
+            height: 120px;
+            width: 660px;
+            background-color: #33cc33;
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="top-nav"></div>
+        <div class="main">
+            <div class="sub-content"></div>
+            <div class="sub-content"></div>
+            <div class="sub-content"></div>
+            <div id="advertisement"></div>
+        </div>
+        <div class="side-nav"></div>
+    </div>
+</body>
+
+</html>
