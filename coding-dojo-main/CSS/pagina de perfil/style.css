@@ -1,48 +1,146 @@
 body {
-    width: 100%;
     margin: 0;
     font-family: Arial, sans-serif;
 }
 
 .navbar {
     background-color: black;
-    color: #fff;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
 }
 
 .logo a {
-    color: #fff;
+    color: white;
     text-decoration: none;
-    font-size: 60px;
+    font-size: 24px;
 }
 
 .nav-links {
-    color: white;
     display: flex;
-    justify-content: flex-end;
-    text-align: center;
-    font-size: 20px;
-    flex: 1 1 auto;
+    align-items: center;
+    gap: 20px;
 }
 
 .nav-links li {
-    margin-right: 50px;
-    color: white;
-
+    list-style: none;
 }
 
 .nav-links li a {
     text-decoration: none;
-    transition: color 0.3s ease;
     color: white;
+    font-size: 16px;
 }
 
-.boton-cerrar-sesion {
+.boton-cerrar-sesion button {
     background-color: cyan;
-    color: white;
-    padding: 10px 10px;
+    border: none;
+    padding: 10px 15px;
     border-radius: 5px;
     cursor: pointer;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.perfil-tarjeta {
+    flex: 2 2 60%;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 10px;
+}
+
+.perfil-header {
+    text-align: left;
+}
+
+.perfil-foto {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.perfil-contenido h1 {
+    font-size: 24px;
+}
+
+.perfil-contenido h3 {
+    color: gray;
+    font-size: 16px;
+}
+
+.perfil-contenido p {
+    line-height: 1.5;
+}
+
+.edit-profile {
+    display: inline-block;
+    margin-top: 10px;
+    text-decoration: none;
+    color: blue;
+}
+
+.educacion,
+.solicitudes,
+.tus-conexiones {
+    flex: 2 2 40%;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+}
+
+.solicitud {
+    display: flex;
+    align-items: right;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.solicitud img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.acciones button {
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    margin: 0 5px;
+}
+
+.acciones .aceptar {
+    color: green;
+}
+
+.acciones .rechazar {
+    color: red;
+}
+
+.tus-conexiones ul {
+    list-style: none;
+    padding: 0;
+}
+
+.tus-conexiones li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.tus-conexiones img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
 }

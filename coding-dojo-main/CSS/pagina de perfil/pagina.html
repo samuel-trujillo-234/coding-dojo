@@ -4,22 +4,77 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>pagina</title>
+    <title>Perfil</title>
     <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
     <nav class="navbar">
         <div class="logo">
-            <a href="#">Videojuegos</a>
+            <a href="#">Perfil</a>
         </div>
         <ul class="nav-links">
             <li><a href="#">Inicio</a></li>
             <li><a href="#">Mi Perfil</a></li>
             <li><a href="#">Encontrar Conexiones</a></li>
-            <div class="boton-cerrar-sesion"><input type="submit" value="Cerrar sesion"></div>
+            <div class="boton-cerrar-sesion">
+                <button>Cerrar Sesión</button>
+            </div>
         </ul>
     </nav>
+    <div class="container">
+        <div class="perfil-tarjeta">
+            <div class="perfil-header">
+                <img src="https://via.placeholder.com/100" alt="Foto de perfil" class="perfil-foto">
+            </div>
+            <div class="perfil-contenido">
+                <h1>Samuel Trujillo</h1>
+                <h3>Colombia, Bogotá D.C.</h3>
+                <p>Programador Backend | Data Scientist | Eterno aprendiz</p>
+                <p>Apasionado a la innovación y nuevas tecnologías. Me esfuerzo por aprender y emprender cada día.</p>
+                <a href="#" class="edit-profile">Editar perfil</a>
+            </div>
+        </div>
+
+        <div class="educacion">
+            <h2>Educación</h2>
+            <p><strong>Coding Dojo</strong> - Bootcamp de Desarrollo Full Stack</p>
+            <p>Dic 2019 - Mar 2020</p>
+            <p>Triple cinturón negro en Python, MERN y C#</p>
+        </div>
+
+        <div class="solicitudes">
+            <h2>Solicitudes de Conexión (2)</h2>
+            <div class="solicitud">
+                <img src="https://via.placeholder.com/50" alt="Kai Schroder">
+                <p>Kai Schröder</p>
+                <div class="acciones">
+                    <button class="aceptar">✔</button>
+                    <button class="rechazar">✖</button>
+                </div>
+            </div>
+            <div class="solicitud">
+                <img src="https://via.placeholder.com/50" alt="Amira El-Masry">
+                <p>Amira El-Masry</p>
+                <div class="acciones">
+                    <button class="aceptar">✔</button>
+                    <button class="rechazar">✖</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="tus-conexiones">
+            <h2>Tus Conexiones (500+)</h2>
+            <ul>
+                <li><img src="https://via.placeholder.com/50" alt=""> Adrien Desplatz</li>
+                <li><img src="https://via.placeholder.com/50" alt=""> Aarav Patel</li>
+                <li><img src="https://via.placeholder.com/50" alt=""> Lina Kovačević</li>
+                <li><img src="https://via.placeholder.com/50" alt=""> Mateo Hernández</li>
+                <li><img src="https://via.placeholder.com/50" alt=""> Yuna Kim</li>
+                <li><img src="https://via.placeholder.com/50" alt=""> Liam O'Brien</li>
+            </ul>
+        </div>
+    </div>
 </body>
 
 </html>
