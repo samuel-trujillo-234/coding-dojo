@@ -1,0 +1,75 @@
+/*cabecera*/
+header {
+    display: flex;
+    justify-content: space-between;
+    background-color: silver;
+    width: 100%;
+    height: 100px;
+}
+
+.titulo {
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+.barra-search {
+    margin-top: 30px;
+    width: 850px;
+    height: 25px;
+}
+
+.boton-sesion {
+    background-color: #438bc7;
+    height: 40px;
+    margin-top: 25px;
+    margin-right: 25px;
+}
+
+/*body*/
+.container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 20px;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
+
+}
+
+
+/*gato*/
+.Gato-Atigrado {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.boton-gato {
+    background-color: yellow;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 1);
+}
+
+/*Perro*/
+.Golden-Retriever {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.boton-perro {
+    background-color: yellow;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 1);
+
+}
+
+/*Definicion*/
+.Descripcion {
+    border: 1px solid black;
+    padding: 10px;
+    height: 100px;
+}
+
+.boton-Definicion {
+    background-color: green;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 1);
+    height: 40px;
+    width: 200px;
+}
