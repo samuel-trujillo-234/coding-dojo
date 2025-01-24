@@ -61,6 +61,7 @@ body {
     grid-template-columns: 70% 30%;
     grid-template-rows: auto auto auto;
     grid-gap: 20px;
+    padding: 20px;
 }
 
 /*Perfil del usuario */
@@ -69,8 +70,9 @@ body {
     grid-area: perfil-tarjeta;
     background: white;
     border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    margin: 20px;
+
 }
 
 .perfil-contenido {
@@ -88,10 +90,13 @@ body {
 }
 
 .perfil-foto {
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     border-radius: 50%;
     margin-bottom: 10px;
+    margin-top: 35px;
+    margin-left: 25px;
+    border: 3px solid white;
 }
 
 .perfil-contenido h1 {
@@ -111,8 +116,9 @@ body {
     grid-area: solicitudes;
     background: white;
     border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
     padding: 10px;
+    margin: 20px;
 }
 
 
@@ -126,7 +132,8 @@ body {
 .solicitud img {
     width: 50px;
     height: 50px;
-    border-radius: 50%;
+    border-radius: 10px;
+    border: 3px solid #3498db;
 }
 
 .acciones button {
@@ -139,10 +146,15 @@ body {
 
 .acciones .aceptar {
     color: green;
+    border-radius: 50%;
+    margin: 3xp;
 }
 
 .acciones .rechazar {
     color: red;
+    border-radius: 50%;
+    margin: 3xp;
+
 }
 
 /*Informacion del perfil*/
@@ -151,8 +163,10 @@ body {
     grid-area: educacion;
     background: white;
     border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    padding: 40px;
+    margin: 20px;
+
 }
 
 /*Amigos en el perfil*/
@@ -160,8 +174,9 @@ body {
     grid-area: tus-conexiones;
     background: white;
     border-radius: 10px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
     padding: 10px;
+    margin: 10px;
 }
 
 .tus-conexiones ul {
@@ -180,17 +195,4 @@ body {
     height: 40px;
     border-radius: 50%;
     margin-right: 10px;
-}
-
-/*Final de la pagina*/
-
-.footer {
-    background-color: white;
-    color: white;
-    text-align: center;
-    padding: 10px;
-    bottom: 50px;
-    width: 100%;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-
 }
