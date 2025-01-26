@@ -1,0 +1,135 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/*Cabeza*/
+header {
+    background-color: #1e90ff;
+    justify-items: center;
+    color: white;
+}
+
+header h1 {
+    display: flex;
+    justify-content: center;
+    padding: 15px;
+}
+
+header li {
+    display: inline-block;
+}
+
+header li button {
+    border: none;
+    background-color: #1e90ff;
+    color: white;
+    padding: 20px;
+}
+
+.Pais {
+    display: flex;
+    justify-content: center;
+    padding: 40px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    border: 5px;
+    gap: 25px;
+}
+
+img {
+    width: 100px;
+    height: 100px;
+    margin-top: -20px;
+    margin-bottom: 20px;
+}
+
+
+/*Cuadro1*/
+.cuadro1 {
+    box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.15);
+    padding: 50px;
+    background-color: #F0F0F0;
+}
+
+.cuadro1 p {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+/*Cuadro2*/
+.cuadro2 {
+    box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.15);
+    padding: 50px;
+    background-color: #F0F0F0;
+}
+
+.cuadro2 p {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+/*Cuadro3*/
+.cuadro3 {
+    box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.15);
+    padding: 50px;
+    background-color: #F0F0F0;
+}
+
+.cuadro3 p {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+/*Cuadro4*/
+.cuadro4 {
+    box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.15);
+    padding: 50px;
+    background-color: #F0F0F0;
+}
+
+.cuadro4 p {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+/*Cuadro5*/
+.cuadro5 {
+    box-shadow: 0px -2px 10px rgba(0, 0, 0, 0.15);
+    padding: 50px;
+    background-color: #F0F0F0;
+}
+
+.cuadro5 p {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    background-color: black;
+    color: white;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 40px;
+}
+
+.ButAcep {
+    background-color: yellow;
+    margin-left: 25px;
+    height: 30px;
+    width: 65px;
+}

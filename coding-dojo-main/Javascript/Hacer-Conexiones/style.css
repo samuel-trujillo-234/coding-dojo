@@ -1,0 +1,195 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/*Barra header */
+.navbar {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: left;
+    padding: 10px 20px;
+}
+
+
+.logo a {
+    color: white;
+    text-decoration: none;
+    font-size: 40px;
+    align-items: center;
+}
+
+.nav-links {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.nav-links li {
+    list-style: none;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    padding: 20px;
+}
+
+.boton-cerrar-sesion button {
+    background-color: cyan;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.container {
+    display: grid;
+    grid-template-areas:
+        "perfil-tarjeta solicitudes"
+        "perfil-tarjeta tus-conexiones"
+        "educacion tus-conexiones";
+    grid-template-columns: 70% 30%;
+    grid-template-rows: auto auto auto;
+    grid-gap: 20px;
+    padding: 20px;
+}
+
+/*Perfil del usuario */
+
+.perfil-tarjeta {
+    grid-area: perfil-tarjeta;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    margin: 20px;
+}
+
+.perfil-contenido {
+    padding: 30px;
+    text-align: left;
+    bottom: 70px;
+}
+
+.perfil-header {
+    text-align: left;
+    background-color: #3498db;
+    width: 100%;
+    height: 120px;
+    border-radius: 10px;
+
+}
+
+.perfil-foto {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    margin-top: 35px;
+    margin-left: 25px;
+    border: 3px solid white;
+}
+
+.perfil-contenido h1 {
+    font-size: 24px;
+}
+
+
+.editprofile {
+    border: none;
+    background-color: white;
+    font-size: 16px;
+    color: blue;
+}
+
+/* Solicitudes de amsitad*/
+
+.solicitudes {
+    grid-area: solicitudes;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    margin: 20px;
+}
+
+
+.solicitud {
+    display: flex;
+    align-items: right;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.solicitud img {
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    border: 3px solid #3498db;
+}
+
+.acciones button {
+    background-color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    margin: 0 5px;
+}
+
+.acciones .aceptar1 .aceptar2 {
+    color: green;
+    border-radius: 50%;
+    margin: 3xp;
+}
+
+.acciones .rechazar1 .rechazar2 {
+    color: red;
+    border-radius: 50%;
+    margin: 4xp blue;
+}
+
+/*Informacion del perfil*/
+
+.educacion {
+    grid-area: educacion;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    padding: 40px;
+    margin: 20px;
+
+}
+
+/*Amigos en el perfil*/
+.tusconexiones {
+    grid-area: tus-conexiones;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    padding: 10px;
+    margin: 10px;
+}
+
+.tusconexiones ul {
+    list-style: none;
+    padding: 0;
+}
+
+.tusconexiones li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.tusconexiones img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
