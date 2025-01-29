@@ -1,0 +1,171 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Playfair Display', serif;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    height: 9%;
+    z-index: 1000;
+
+}
+
+header button {
+    color: black;
+    border: none;
+    background-color: transparent;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease, opacity 0.3s ease;
+    margin: 20PX;
+    cursor: pointer;
+    border: none;
+}
+
+header button:active {
+    background-color: white;
+    border: 2px solid white;
+    opacity: 0.2;
+}
+
+header li {
+    list-style-type: none;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+/*SECCION 1*/
+
+#section1 {
+    background-color: white;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    animation: slideIn 2s forwards;
+}
+
+#section1 H1 {
+    font-size: 50px;
+    font-family: 'Playfair Display', serif;
+}
+
+#section1 p {
+    font-size: 20px;
+    font-family: 'Playfair Display', serif;
+    animation: slideIn 2s 0.5s forwards;
+
+}
+
+
+/*SECCION 2*/
+
+#section2 {
+    background: #ab9680;
+    color: black;
+    padding: 80px;
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 1s ease-out, transform 2s ease-out;
+}
+
+#section2.aparecer {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.aboutme-container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 20px;
+    align-items: center;
+}
+
+.skill p {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    margin: 5px 0;
+    font-size: 20px;
+    margin: 20px;
+}
+
+.progress-bar {
+    width: 100%;
+    height: 10px;
+    background: #e0e0e0;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+
+.progress {
+    height: 100%;
+    background: #776b5d;
+    width: 0;
+    transition: width 1.5s ease-in-out;
+}
+
+/*SECCION 3*/
+
+#section3 {
+    background: #c7b69f;
+    color: black;
+}
+
+/*SECCION 4*/
+
+#section4 {
+    background: #e3d7bf;
+    color: black;
+}
+
+/*SECCION 5*/
+
+#section5 {
+    background: #735945;
+    color: black;
+}
+
+/*SECCION 6*/
+
+#section6 {
+    background: #fff9e1;
+    color: black;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 200px;
+    background-color: black;
+    color: white;
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateX(100%);
+        opacity: 0;
+    }
+
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
