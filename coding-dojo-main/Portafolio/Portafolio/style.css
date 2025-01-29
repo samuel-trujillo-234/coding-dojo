@@ -95,6 +95,42 @@ section {
     align-items: center;
 }
 
+.foto-samuel {
+    border: 2px solid #735945;
+    width: 500px;
+    align-content: center;
+    margin: 40px;
+}
+
+
+
+/*SECCION 3*/
+
+#section3 {
+    background: #c7b69f;
+    color: black;
+}
+
+
+/*SECCION 4*/
+
+#section4 {
+    background: #e3d7bf;
+    color: black;
+}
+
+#section4 h1 {
+    display: inline-block;
+}
+
+.estadisticas {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 20px;
+    align-items: center;
+}
+
+
 .skill p {
     display: flex;
     justify-content: space-between;
@@ -120,19 +156,6 @@ section {
     transition: width 1.5s ease-in-out;
 }
 
-/*SECCION 3*/
-
-#section3 {
-    background: #c7b69f;
-    color: black;
-}
-
-/*SECCION 4*/
-
-#section4 {
-    background: #e3d7bf;
-    color: black;
-}
 
 /*SECCION 5*/
 
