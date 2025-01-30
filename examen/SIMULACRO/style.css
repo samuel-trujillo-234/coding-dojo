@@ -1,0 +1,133 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+    border: 2px solid black;
+    padding: 15px;
+
+}
+
+h1 {
+    font-size: 40px;
+}
+
+.boton-container .registro,
+.inicia {
+    font-size: 15px;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+    background-color: #007bff;
+    margin: 5px;
+    border: 2px solid black;
+    box-shadow: 6px 6px 4px 3px rgba(0, 0, 0, 0.9), 10px 10px 10px 4px rgba(0, 0, 0, 0.8);
+}
+
+.inicia {
+    color: white;
+
+}
+
+.registro {
+    color: black;
+}
+
+.inicia:hover {
+    background-color: #0056b3;
+}
+
+.registro:hover {
+    background-color: #0056b3;
+}
+
+.seccion1 {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 30px;
+}
+
+.seccion2 {
+    display: flex;
+    justify-content: space-around;
+    background-color: steelblue;
+}
+
+.seccion2 .genero1,
+.genero2,
+.genero3,
+.genero4,
+.genero5 {
+    border: none;
+    cursor: pointer;
+    background-color: steelblue;
+}
+
+.seccion2 :hover {
+    background-color: #0056b3;
+}
+
+.seccion3 {
+    display: flex;
+    justify-content: center;
+    background-color: darkgray;
+}
+
+.seccion4 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+.cuadro1,
+.cuadro2,
+.cuadro3 {
+    background-color: #eeeeee;
+    justify-items: center;
+    padding: 20px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 200px;
+}
+
+.rentar1,
+.rentar2,
+.rentar3 {
+    background-color: #007bff;
+    padding: 5px;
+    width: 100px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.letras {
+    padding: 5px;
+}
+
+
+img {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+}
+
+footer {
+    width: 100%;
+    background-color: #0056b3;
+    color: #fff;
+    text-align: center;
+    padding: 30px;
+    bottom: 0;
+    left: 0;
+    margin: 0;
+}
